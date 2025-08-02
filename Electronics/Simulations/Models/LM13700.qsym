@@ -1,0 +1,24 @@
+ÿØÿÛ«symbol LM13700
+  «type: X»
+  «description: Machine generated symbol for HALF13700»
+  «library file: |.SUBCKT HALF13700 LIN INP INN IAB OUT VCC VSS BIN BUF\nQN1 IAB VN2B VSS npnv 3\nQN2 VN2B VN2B VSS npnv 3\nQN3 VN3C IAB VN2B npnv 3\nQN4 VP3B INN VN3C npnv 3\nQN5 VP6B INP VN3C npnv 3\nQN6 LIN LIN INN npnv 3\nQN7 LIN LIN INP npnv 3\nQN8 VN10B VN9B VSS npnv 3\nQN9 VN9B VN9B VSS npnv 3\nQN10 OUT VN10B VN9B npnv 3\nQN11 VCC BIN VN12B npnv 15\nQN12 VN12B VN12B BUF npnv 3\nQN13 VCC VN12B BUF npnv 150\nQP1 VP3B VP2B VCC pnpl 3\nQP2 VP2B VP2B VCC pnpl 3\nQP3 VN10B VP3B VP2B pnpl 3\nQP4 VP6B VP5B VCC pnpl 3\nQP5 VP5B VP5B VCC pnpl 3\nQP6 OUT VP6B VP5B pnpl 3\n.ends\n.MODEL npnv NPN( IS=1.1E-18 NF=1.005 BF=220 VAF=130 IKF=5e-03 ISE=9.15E-15 NE=2 CJE=2E-12 CJC=2E-13 CJS=3E-12 TF=.6E-9 )\n.MODEL pnpl PNP( IS=1.1E-18 NF=1.8 BF=5 VAF=170 IKF=6e-03 ISE=3E-15 NE=3 CJE=4E-12 CJC=6E-13 CJS=5E-12 TF=70E-9 )\n.end»
+  «shorted pins: false»
+  «line (1000,0) (950,0) 0 0 0x1000000 -1 -1»
+  «line (100,-500) (100,500) 0 0 0x1000000 -1 -1»
+  «ellipse (650,100) (850,-100) 0 0 0 0x1000000 0x1000000 -1 -1»
+  «ellipse (750,100) (950,-100) 0 0 0 0x1000000 0x1000000 -1 -1»
+  «triangle (-400,550) (-400,-550) (650,0) 0 0 0x1000000 0x2000000 -1 -1»
+  «text (-300,350) 1 0 1 0x1000000 -1 -1 "+"»
+  «text (-300,-300) 1 0 1 0x1000000 -1 -1 "-"»
+  «text (-300,733) 1 15 0 0x1000000 -1 -1 "U1"»
+  «text (100,17) 1 15 0 0x1000000 -1 -1 "LM13700"»
+  «pin (-400,0) (20,0) 1 15 0 0x0 -1 "LIN"»
+  «pin (-400,300) (20,0) 1 15 0 0x0 -1 "INP"»
+  «pin (-400,-300) (20,0) 1 15 0 0x0 -1 "INN"»
+  «pin (800,100) (20,0) 1 15 0 0x0 -1 "IAB"»
+  «pin (1000,0) (20,0) 1 15 0 0x0 -1 "OUT"»
+  «pin (100,500) (-20,0) 1 11 0 0x0 -1 "VCC"»
+  «pin (100,-500) (-20,0) 1 11 0 0x0 -1 "VSS"»
+  «pin (-100,-100) (-20,0) 1 15 0 0x0 -1 "BIN"»
+  «pin (100,-100) (-20,0) 1 15 0 0x0 -1 "BUF"»
+»
